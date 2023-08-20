@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>card</title>
+</head>
+
+<body>
+
+    <!-- START NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+        <div class="container">
+            <img class="navbar-brand" src="../img/logo/download.webp" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a href="../index.html" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">shop</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+
+                    <li class="nav-item dropdown hot">
+
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Latest</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Product list</a></li>
+                            <li><a href="#" class="dropdown-item">Product Details</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Blog</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Blog</a></li>
+                            <li><a href="#" class="dropdown-item">Blog Details</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Login</a></li>
+                            <li><a href="#" class="dropdown-item">Cart</a></li>
+                            <li><a href="#" class="dropdown-item">Element</a></li>
+                            <li><a href="#" class="dropdown-item">Confirmation</a></li>
+                            <li><a href="#" class="dropdown-item">Product Checkout</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="icon-meno">
+                <ul>
+                    <li><a href="#" class="modla-toogel"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href="login.html" class="icon-item"><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="card.html" class="icon-item"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+
+
+    </nav>
+
+    <!-- AND NAVBAR -->
+
+    <!-- START LOGIN-IMG -->
+
+    <div class="login-img d-flex align-items-center overflow-hidden">
+        <p class="text-center  w-100">Cart List</p>
+    </div>
+
+    <!-- AND LOGIN-IMG -->
+
+    <!-- START CART-AREA -->
+
+    <div class="cart_area overflow-hidden">
+        <div class="container">
+            <div class="cart_inner">
+                <div class="row p-0">
+
+                    <div class="card-title ">
+                        <div class="Product">Product</div>
+                        <div class="th ">
+                            <ul>
+                                <li>Total</li>
+                                <li>Quantity</li>
+                                <li>Price</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div id="card-cantiner" class="py-3 bg-success">
+
+                        <!-- <div class="card-item col-lg-12 col-md-6 p-0 g-0 m-0 pb-2 mt-3">
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="card-img"><img
+                                                src="../img/xchoce_watch2.png.pagespeed.ic.GaOMVE1NLY.webp" alt="img">
+                                        </div>
+                                        <p>Watch of Choice</p>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 d-flex justify-content-between">
+                                        <div class="Product-card">$ 45,743</div>
+                                        <div
+                                            class="Counter  text-center d-flex justify-content-between align-items-center">
+                                            <div class="counter-naber px-4">0</div>
+                                            <div class="canter-btn">
+                                                <div class="plus"><i class="fa-solid fa-plus p-1"></i></div>
+                                                <div class="minus"><i class="fa-solid fa-minus p-1"></i></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="total">$720.00</div>
+                                    </div>
+
+                                </div>
+                            </div>       -->
+
+                    </div>
+
+                    <div class="card-item  col-lg-12 col-md-6 py-4">
+                        <div class="Update d-flex justify-content-between py-4">
+                            <div class="btn-update">
+                                <button type="submit" class="btn-card">Update Cart</button>
+                            </div>
+                            <div class="btn-update btn-Coupon">
+                                <button type="submit" class="btn-card">Close Coupon</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-item  col-lg-12 col-md-6 py-4">
+                        <div class="Subtotal py-4 text-end">
+                            <ul>
+                                <li> $2160.00</li>
+                                <li> Subtotal</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card-item  col-lg-12 col-md-6 mt-3 mb-3">
+                        <div class="list py-4 text-end">
+                            <ul>
+                                <li>
+                                    <label for="rg1">Flat Rate: $5.00 </label>
+                                    <input type="checkbox" name="chk1" id="chk1" value="1">
+                                </li>
+                                <li>
+                                    <label for="rg2">Free Shipping</label>
+                                    <input type="checkbox" name="chk2" id="chk2" value="1">
+                                </li>
+                                <li>
+                                    <label for="rg3">Flat Rate: $10.00</label>
+                                    <input type="checkbox" name="chk3" id="chk3" value="1">
+                                </li>
+                                <li>
+                                    <label for="rg4">Local Delivery: $2.00</label>
+                                    <input type="checkbox" name="chk3" id="chk4" value="1">
+                                </li>
+                            </ul>
+                            <h6>Calculate Shipping <i class="fa-solid fa-sort-down"></i></h6>
+
+                            <select name="select" class="shipping_select">
+                                <option value="1">Bangladesh</option>
+                                <option value="2">India</option>
+                                <option value="3">Pakistan</option>
+                            </select>
+                            <br>
+                            <select name="select" class="shipping_select">
+                                <option value="4">Select a State</option>
+                                <option value="5">Select a State</option>
+                                <option value="6">Select a State</option>
+                            </select>
+                            <br>
+                            <button type="submit" class="btn-card">Update Details</button>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-6 mt-5 text-end">
+                        <button type="submit" class="btn-card">Proceed To Checkout</button>
+                        <button type="submit" class="btn-card">Continue Shopping</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- AND CART-AREA -->
+
+
+    <!-- START FOOTER-AREA -->
+
+
+    <footer class="footer-area overflow-hidden">
+        <div class="container">
+
+            <div class="row d-flex justify-content-between mb-5 pb-5">
+
+                <div class="col-lg-3 col-md-5 col-sm-6">
+
+                    <div class="single-footer-caption mb-50">
+                        <div class="single-footer">
+                            <div class="footer-logo">
+                                <img src="../img/logo/download.webp" alt="logo">
+                                <p>Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do eiusmod tem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-5 col-sm-6">
+
+                    <div class="single-footer-caption mb-50">
+                        <div class="single-footer">
+                            <div class="footer-title">
+                                Quick Links
+                            </div>
+                            <div class="footer-link">
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Offers & Discounts</a></li>
+                                    <li><a href="#">Get Coupon</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-5 col-sm-6">
+
+                    <div class="single-footer-caption mb-50">
+
+                        <div class="single-footer">
+                            <div class="footer-title">
+                                Quick Links
+                            </div>
+                            <div class="footer-link">
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Offers & Discounts</a></li>
+                                    <li><a href="#">Get Coupon</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-5 col-sm-6">
+
+                    <div class="single-footer-caption mb-50">
+
+                        <div class="single-footer">
+                            <div class="footer-title">
+                                Quick Links
+                            </div>
+                            <div class="footer-link">
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Offers & Discounts</a></li>
+                                    <li><a href="#">Get Coupon</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer-botton row">
+
+                <div class="col-lg-8 col-md-7">
+                    <p>Copyright ©2022 All rights reserved | This template is made with <span class="text-danger"> ❤
+                        </span> by <a href="#">Alireza</a></p>
+                </div>
+
+                <div class="col-lg-4 col-md-7">
+                    <div class="app-link">
+                        <ul>
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                            <li><a href="#"><i class="bi bi-globe2"></i></a></li>
+                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- AND FOOTER-AREA -->
+
+
+    <!-- START SCROLL-TOP -->
+
+    <div class="scroll-top overflow-hidden">
+        <div class="btn-top">
+            <i class="fas fa-level-up-alt"></i>
+        </div>
+    </div>
+
+    <!-- AND SCROLL-TOP -->
+
+
+    <!-- START MODAL-CONTAINER -->
+
+    <div class="modal-container overflow-hidden">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="close"><i class="fa-solid fa-xmark"></i></div>
+
+            <form action="#">
+                <input type="text" name="text" id="text" class="modla-input" placeholder="Searching key....."
+                    autocomplete="off">
+            </form>
+        </div>
+
+    </div>
+
+    <!-- AND  MODAL-CONTAINER -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="../js/products.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/juqry.js"></script>
+</body>
+
+</html>
